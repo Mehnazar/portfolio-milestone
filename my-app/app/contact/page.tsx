@@ -2,7 +2,7 @@ import Header from "@/components/header/header"
 
 {/* Contact Information */}
 export default function Contact(){
-    return(<div><Header/>
+    return(<div className="h-screen bg-gray-900 text-white md:p-16"><Header/>
     <div className="max-w-4xl mx-auto bg-gray-800 rounded-lg shadow-lg p-8">
         
         <h1 className="text-3xl font-bold">Contact Information </h1>

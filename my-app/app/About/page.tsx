@@ -1,7 +1,7 @@
 import Header from "@/components/header/header"
 
 export default function About(){
-    return(<div><Header/>
+    return(<div className="bg-gray-900 text-white md:p-16"><Header/>
     <div className=" max-w-4xl mx-auto bg-gray-800 rounded-lg shadow-lg p-8 md:p-16">
 
 <div>
@@ -27,7 +27,7 @@ I completed my bachelor's in Electronics Engineering in 2007 and earned my maste
     <h3 className="font-semibold">MEHRAN UET, JAMSHORO</h3>
     <p className="text-sm">Bachelor Degree Graduate (2007)</p>
     <p className="text-xs">
-      B.E, Electonics Engineering with 1st Div 
+      B.E, Electronics Engineering with 1st Div 
     </p>
   </div>
   <div>

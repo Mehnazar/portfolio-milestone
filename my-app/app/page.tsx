@@ -3,7 +3,7 @@ import Header from "@/components/header/header";
 export default function CV() {
   return (
     
-    <div className="bg-gray-900 text-white p-8 md:p-16">
+    <div className="bg-gray-900 text-white md:p-16">
       <Header/>
       <div className="max-w-4xl mx-auto bg-gray-800 rounded-lg shadow-lg p-8">
         {/* Profile Section */}
@@ -36,19 +36,20 @@ export default function CV() {
         {/* Skills Section */}
         <div className="mb-8">
           <h2 className="text-teal-400 text-2xl font-semibold">Skills:</h2>
-          <ul className="mt-4 space-y-2 text-sm">
+          <p><ul className="mt-4 space-y-2 text-sm">
             <li>Typescript</li>
             <li>Javascript</li>
             <li>TailwindCSS</li>              
             <li>HTML & CSS</li>
             <li>Microsoft Word</li>
             <li>Microsoft PowerPoint</li>
-            <li>Adobe Photoshop</li>
+            <li>Adobe PhotoShop</li>
             <li>Adobe Illustrator</li>
             <li>Matlab</li>
             <li>Electronics Workbench</li>
 
           </ul>
+          </p>
         </div>
 
         {/* Job Experience */}
@@ -77,7 +78,7 @@ export default function CV() {
               <h2 className="text-teal-400 text-sm text-2x1 font-semibold mt-4 space-y-2">"online ATM Machine system"</h2>
               <p className="text-sm mt-4"></p>
               <p className="text-xs">
-                An ATM Machine system is deployed using Nextjs and TailwindCSS. The prototype is designed to keep balance record of a particular customer. who can check balance, withdraw amount and can get the fast cash.    
+                An ATM Machine system is deployed using NextJs and TailwindCSS. The prototype is designed to keep balance record of a particular customer. who can check balance, withdraw amount and can get the fast cash.    
               <a href="https://mehnazar.github.io/online-ATM-Machine/" className="text-blue-600 visited:text-purple-600">ATM link</a>
               </p>
             </div>
@@ -85,7 +86,7 @@ export default function CV() {
               <h2 className="text-teal-400 text-sm text-2x1 font-semibold mt-4 space-y-2">"Educational Pedia"</h2>
               <p className="text-sm mt-4"></p>
               <p className="text-xs">
-                Educational Pedia is a website designed using TailwindCSS and Nextjs.The website is designed for educational purpose.    
+                Educational Pedia is a website designed using TailwindCSS and NextJs.The website is designed for educational purpose.    
                 <a href="https://assignment-no-3-3en2g9ihm-mehnazar-umairs-projects.vercel.app/" className="text-blue-600 visited:text-purple-600 ...">link</a>
 
               </p>

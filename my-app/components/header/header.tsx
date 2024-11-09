@@ -1,7 +1,4 @@
 import Link from "next/link";
-import Home from "@/app/home/page";
-import About from "@/app/About/page";
-import Contact from "@/app/contact/page";
 
 export default function Header() {
   return (
