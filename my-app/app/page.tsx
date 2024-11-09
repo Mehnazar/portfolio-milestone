@@ -36,7 +36,8 @@ export default function CV() {
         {/* Skills Section */}
         <div className="mb-8">
           <h2 className="text-teal-400 text-2xl font-semibold">Skills:</h2>
-          <p><ul className="mt-4 space-y-2 text-sm">
+          <p>
+            <ul className="mt-4 space-y-2 text-sm">
             <li>Typescript</li>
             <li>Javascript</li>
             <li>TailwindCSS</li>              
