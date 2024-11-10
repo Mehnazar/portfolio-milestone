@@ -1,7 +1,7 @@
 import Header from "@/components/header/header"
 
 export default function About(){
-    return(<div className="bg-gray-900 text-white md:p-16"><Header/>
+    return(<div className="bg-gray-900 text-white md:p-4"><Header/>
     <div className=" max-w-4xl mx-auto bg-gray-800 rounded-lg shadow-lg p-8 md:p-16">
 
 <div>

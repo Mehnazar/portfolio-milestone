@@ -3,7 +3,7 @@ import Header from "@/components/header/header";
 export default function CV() {
   return (
     
-    <div className="bg-gray-900 text-white md:p-16">
+    <div className="bg-gray-900 text-white md:p-4">
       <Header/>
       <div className="max-w-4xl mx-auto bg-gray-800 rounded-lg shadow-lg p-8">
         {/* Profile Section */}
@@ -36,7 +36,7 @@ export default function CV() {
         {/* Skills Section */}
         <div className="mb-8">
           <h2 className="text-teal-400 text-2xl font-semibold">Skills:</h2>
-          <p>
+          
             <ul className="mt-4 space-y-2 text-sm">
             <li>Typescript</li>
             <li>Javascript</li>
@@ -50,23 +50,20 @@ export default function CV() {
             <li>Electronics Workbench</li>
 
           </ul>
-          </p>
-        </div>
+                  </div>
 
         {/* Job Experience */}
         <div>
           <h2 className="text-teal-400 text-2xl font-semibold">
             Publications:
           </h2>
-          <div className="mt-4 space-y-4">
-            <div>
-               <p className="text-xs">
+          <div className="text-xs mt-4 space-y-4">
+                         
                 <li>Lab Book of "Embedded System Design" for Under graduate and Post Graduate Levels.
                   ISBN: 978-969-8680-31-2</li>
                   <li> Lab Book of "Microprocessor Based System Design" for Post graduate Level. ISBN:978-969-8680-31-2</li> 
-              </p>
-            </div>
             
+                       
             <div>
           <h2 className="text-teal-400 text-2xl font-semibold">Projects:</h2>
               
