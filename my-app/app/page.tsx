@@ -38,6 +38,8 @@ export default function CV() {
           <h2 className="text-teal-400 text-2xl font-semibold">Skills:</h2>
           
             <ul className="mt-4 space-y-2 text-sm">
+              <li>React JS| Node JS</li>
+              <li>Python</li>
             <li>Typescript</li>
             <li>Javascript</li>
             <li>TailwindCSS</li>              
